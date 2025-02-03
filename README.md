@@ -66,7 +66,7 @@ Refresh your notebook then you will see this new kernel with customized conda pa
 # Clone this repository to have access to the github
 Once the environment is set up, you are ready to clone the github repository. Please go to the terminal and do the following:
 ```
-git clone https://github.com/hnmartin/DataMine_Spring2025_CMS.git
+git clone https://github.com/hnmartin/Combined_DataMine_Spring2025.git
 
 ```
 Each week, a new folder will be added to this GitHub repository. To get the latest changes from GitHub, follow these steps:

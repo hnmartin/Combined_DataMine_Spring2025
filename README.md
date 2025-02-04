@@ -64,7 +64,22 @@ python -m ipykernel install --user --name=Coffea-Santosh
 Refresh your notebook then you will see this new kernel with customized conda packages 
 
 # Clone this repository to have access to the github
-Once the environment is set up, you are ready to clone the github repository. Please go to the terminal and do the following:
+Once the environment is set up, you are ready to clone the github repository. Please go to your local lapop's terminal and do the following:
+```
+git clone https://github.com/hnmartin/Combined_DataMine_Spring2025.git
+
+```
+If you want to clone the Github repository onto the Purdue gateway rcac JupyterLab, open a JuypterLab terminal and type 
+
+```
+cd ~/
+```
+If you then check your directory files in this folder
+
+```
+dir
+```
+you should see the same files and folders as those that show on the left side of the window. Then, you can clone the github
 ```
 git clone https://github.com/hnmartin/Combined_DataMine_Spring2025.git
 

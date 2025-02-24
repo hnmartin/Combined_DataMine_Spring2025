@@ -8,7 +8,7 @@ For this course, we will be using Jupyter Notebook, which is useful for creating
 # Connecting through Jupyterhub
 1. Obtain Scholar Access: Ensure you have scholar access by contacting the course TA.
 2. Access JupyterHub:
-    - Open your web browser and go to: https://notebook.scholar.rcac.purdue.edu
+    - Open your web browser and go to: https://gateway.scholar.rcac.purdue.edu/
     - Log in using your BoilerKey username and password. In the password field, enter your BoilerKey password followed by ```,push``` and confirm the login with Duo Mobile.
    
 F.Y.I. You can also access terminal from here which will be seperate from the terminal in your local machine.
@@ -64,9 +64,24 @@ python -m ipykernel install --user --name=Coffea-Santosh
 Refresh your notebook then you will see this new kernel with customized conda packages 
 
 # Clone this repository to have access to the github
-Once the environment is set up, you are ready to clone the github repository. Please go to the terminal and do the following:
+Once the environment is set up, you are ready to clone the github repository. Please go to your local lapop's terminal and do the following:
 ```
-git clone https://github.com/SantoshBh137/DataMine_Fall2024_CMS.git
+git clone https://github.com/hnmartin/Combined_DataMine_Spring2025.git
+
+```
+If you want to clone the Github repository onto the Purdue gateway rcac JupyterLab, open a JuypterLab terminal and type 
+
+```
+cd ~/
+```
+If you then check your directory files in this folder
+
+```
+dir
+```
+you should see the same files and folders as those that show on the left side of the window. Then, you can clone the github
+```
+git clone https://github.com/hnmartin/Combined_DataMine_Spring2025.git
 
 ```
 Each week, a new folder will be added to this GitHub repository. To get the latest changes from GitHub, follow these steps:

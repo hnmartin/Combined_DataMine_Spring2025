@@ -2,10 +2,10 @@
 
 Welcome to the PHYS_324 course for the spring semester. This repository contains notebooks for Jishnu to learn about data from CMS open source and use different techniques to analyse them. These notebooks will help you understand and explore the course material effectively.
 
-# Connecting to Jupyter Lab/Notebook 
+# 1) Connecting to Jupyter Lab/Notebook 
 For this course, we will be using Jupyter Notebook, which is useful for creating and sharing documents containing code and narrative text. There are two primary ways to access Jupyter Notebook: through the terminal and through Purdue JupyterHub. Before using either method, you need to have scholar access. Please contact the TA for this access.
 
-# Connecting through Jupyterhub
+# 1a) Connecting through Jupyterhub
 1. Obtain Scholar Access: Ensure you have scholar access by contacting the course TA.
 2. Access JupyterHub:
     - Open your web browser and go to: https://gateway.scholar.rcac.purdue.edu/
@@ -13,7 +13,7 @@ For this course, we will be using Jupyter Notebook, which is useful for creating
    
 F.Y.I. You can also access terminal from here which will be seperate from the terminal in your local machine.
 
-# Connecting through terminal
+# 1b) Connecting through terminal
 1. On your local machine, open the terminal.
 2. Use the following command to connect to the Scholar server:
 ```
@@ -38,7 +38,7 @@ jupyter lab --port 8868
 Copy the provided URL into your web browser to access Jupyter Lab. It's the best to practice to connect to a remote server via ssh-keys: https://www.rcac.purdue.edu/knowledge/scholar/accounts/login/sshkeys.
 
 
-# Set up Conda Environment 
+# 2) Set up Conda Environment 
 For the purpose of this course, we need to be able to access root files. Therefore, installing ROOT is important. However, it is very difficult to install ROOT locally. Instead, we
 create Conda Environment and install ROOT within it along with all the packages that are needed for this course.
 
@@ -63,7 +63,7 @@ python -m ipykernel install --user --name=Coffea-Santosh
 ``` 
 Refresh your notebook then you will see this new kernel with customized conda packages 
 
-# Clone this repository to have access to the github
+# 3) Clone this repository to have access to the github
 Once the environment is set up, you are ready to clone the github repository. Please go to your local lapop's terminal and do the following:
 ```
 git clone https://github.com/hnmartin/Combined_DataMine_Spring2025.git

@@ -1,6 +1,6 @@
-# PHYS_323 Fall Semester Course
+# PHYS_324 Spring Semester Course
 
-Welcome to the PHYS_323 course for the fall semester. This repository contains notebooks that helps undergraduate students of PHYS_323 to learn about data from CMS open source and use different techniques to analyse them. These notebooks will help you understand and explore the course material effectively.
+Welcome to the PHYS_324 course for the spring semester. This repository contains notebooks for Jishnu to learn about data from CMS open source and use different techniques to analyse them. These notebooks will help you understand and explore the course material effectively.
 
 # Connecting to Jupyter Lab/Notebook 
 For this course, we will be using Jupyter Notebook, which is useful for creating and sharing documents containing code and narrative text. There are two primary ways to access Jupyter Notebook: through the terminal and through Purdue JupyterHub. Before using either method, you need to have scholar access. Please contact the TA for this access.
